@@ -12,7 +12,7 @@ The application can be run with:
 ./run.sh agent
 ```
 
-You can test that the agent started successfully via:
+To validate that the agent started successfully:
 
 ```shell
 docker logs application_agent 2>&1 | grep "DATADOG TRACER CONFIGURATION"
